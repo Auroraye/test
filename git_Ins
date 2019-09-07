@@ -1,0 +1,9 @@
+1. git clone URL 把 github 建好的repository连接到本地
+2. cd 到指定directory
+3. touch <文件名>
+4. atom .  打开atom
+5. git add <文件名>
+6. git commit -m "简单的描述操作"
+7. git status 查一下当前的status
+8. git push 把现有的文件push到github
+9. git pull 更新github里的东西到local

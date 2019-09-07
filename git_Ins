@@ -7,3 +7,13 @@
 7. git status 查一下当前的status
 8. git push 把现有的文件push到github
 9. git pull 更新github里的东西到local
+
+==================================
+Potential Problem:
+Merge Conflict: 2个commit
+==================================
+other:
+git log: a list of history
+git reset --hard <以前的version> :恢复到之前的version
+(可以用git log来看history 然后从githash里(就是一堆数字)里复制一部分然后用
+git reset --hard <那串数字> 也可以恢复)
